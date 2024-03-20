@@ -1,0 +1,152 @@
+.container {
+  border: 3px solid black;
+  text-align: center;
+}
+
+#grid .row {
+  height: 37px;
+} 
+
+#grid .col-6 {
+  border-right: 3px solid black;
+  
+}
+
+#grid .col-3 {
+  border-right: 3px solid black;
+  
+}
+
+#row1, #row3, #row5, #row7 {
+  background-color: rgb(220, 220, 220);
+}
+
+.MyTasks {
+  font-size: 30px;
+}
+.ContainerFoto{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.containerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.checkbox1,
+.checkbox2{
+  height: 16px;
+  width: 16px;
+  margin: 0;
+}
+
+#row1{
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+.LogOff{
+  box-shadow: 2px 2px;
+  width: 150px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.welcome-text{
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.ContainerTask{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.NewTask{
+  margin-left: 415px;
+  box-shadow: 2px 2px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.ProfileImage{
+  padding-left: 120px;
+}
+.ManageProfile{
+  margin-left: 135px;
+  box-shadow: 2px 2px;
+  width: 100px;
+  font-weight: 500;
+  border-radius: 3px;
+  
+}
+
+.goToHomePage{
+  font-weight: bold;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 2px 2px;
+  border-width: 2px;
+  border-radius: 3px;
+}
+
+.ProfileField{
+  margin-top: 10px;
+  background-color: rgb(220, 220, 220);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  border: 3px solid black;
+}
+
+h1{
+  margin-top: 50px;
+}
+#ImagemPerfil{
+  padding-top: 20px;
+}
+#fullname,
+#Email{
+  width: 400px;
+}
+.save{
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 3px;
+
+}
+.btn-primary{
+  background-color: white;
+      color: black;
+      border-color: black;
+      border: 2px solid black;
+}
+.save:hover,
+.goToHomePage:hover,
+.LogOff:hover,
+.ManageProfile:hover,
+.NewTask:hover
+.btn-primary:hover{
+  background-color: #A3F381;
+  color: white;
+}
+
+#Description{
+  width: 450px;
+  height: 70px;
+}
+
+#Date{
+  width: 140px;
+  text-align: center;
+}
+.modal-footer button.btn-primary{
+  width: 200px;
+}
+.modal-footer button.btn-danger{
+  width: 200px;
+  margin-right: 35px;
+}
